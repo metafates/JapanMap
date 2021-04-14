@@ -9,6 +9,7 @@
 </template>
 
 <script>
+import fetcher from "./utils/fetcher";
 export default {
     name: "App",
 
@@ -17,5 +18,10 @@ export default {
     data: () => ({
         //
     }),
+    // Fetch api for prefectures and then set them in the vuex
+    async created() {
+        const prefectures = await fetcher();
+        this.$store.commit("setup", prefectures);
+    },
 };
 </script>
