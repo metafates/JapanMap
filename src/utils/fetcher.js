@@ -4,5 +4,6 @@ export default async function fetcher() {
         method: "GET",
     };
     const res = await fetch(URL, options);
-    return await res.json();
+    const json_res = await res.json();
+    return Object.freeze(json_res);
 }
