@@ -1,11 +1,9 @@
 <template>
     <v-card elevation="6" class="headerCard" max-width="300">
         <v-img
-            class="enableBlur"
             :src="prefecture.image.large"
             :lazy-src="prefecture.image.normal"
-        >
-        </v-img>
+        ></v-img>
         <v-card-text class="text-center">
             <p class="text-h4 text--primary">{{ prefecture.name }}</p>
             <p>{{ prefecture.intro }}</p>
@@ -56,7 +54,4 @@ export default {
 	right 10px
 	top 50%
 	transform translateY(-50%)
-
-.enableBlur
-	filter blur(1.2px)
 </style>
