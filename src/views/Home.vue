@@ -1,14 +1,15 @@
 <template>
   <div class="home">
-    <h1>Home page</h1>
+  	<HeaderCard />
   </div>
 </template>
 
 <script>
-
+import HeaderCard from "../components/HeaderCard.vue"
 export default {
   name: 'Home',
   components: {
+  	HeaderCard
   }
 }
 </script>

@@ -3,6 +3,7 @@ import Vuetify from 'vuetify/lib/framework';
 
 import Food from "../components/icons/Food.vue"
 import Sightseeings from "../components/icons/Sightseeings.vue"
+import Language from "../components/icons/Language.vue"
 // import foodIcon from "../assets/icons/japanese-food-with-chopsticks.svg"
 
 Vue.use(Vuetify);
@@ -15,6 +16,9 @@ export default new Vuetify({
 			},
 			sightseeings: {
 				component: Sightseeings
+			},
+			language: {
+				component: Language
 			}
 		}
 	}
