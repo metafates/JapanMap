@@ -1,4 +1,4 @@
-export default {
+export default Object.freeze({
     "JP-00": {
         name: "",
         preview: {
@@ -86,4 +86,4 @@ export default {
             },
         ],
     },
-};
+});
