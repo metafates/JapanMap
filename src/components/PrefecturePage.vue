@@ -24,7 +24,7 @@
                             <template v-slot:activator="{ on, attrs }">
                                 <div
                                     v-on="on"
-                                    v-bin="attrs"
+                                    v-bind="attrs"
                                     class="d-flex flex-column mx-10 my-5 align-center"
                                 >
                                     <v-icon x-large>{{ field.icon }}</v-icon>
