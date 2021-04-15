@@ -6,12 +6,12 @@
     >
         <v-img
             v-if="!sm"
-            :src="prefecture.image.large"
-            :lazy-src="prefecture.image.normal"
+            :src="p.preview.image.large"
+            :lazy-src="p.preview.image.small"
         ></v-img>
         <v-card-text class="text-center">
             <p class="text-h4 text--primary">{{ p.name }}</p>
-            <p>{{ prefecture.intro }}</p>
+            <p>{{ p.preview.intro }}</p>
             <div :class="sm && 'd-flex justify-space-around'">
                 <p class="text-left" v-for="(field, i) in fields" :key="i">
                     <v-icon small left>{{ field.icon }}</v-icon>
@@ -33,46 +33,38 @@ export default {
             default: "JP-02",
         },
     },
-    // TODO: Prefecture data will be stored in the vuex later
     data() {
         return {
             sm: false,
-            // pref: {},
             p: this.$store.state.prefectures[this.pref],
-            prefecture: {
-                name: "Аомори",
-                intro:
-                    "Аомори - префектура, расположенная на севере острова Хонсю, центром является одноимённый город Аомори.",
-                image: {
-                    large: "https://i.ibb.co/XSmbqk2/maxresdefault.jpg",
-                    normal: "https://i.ibb.co/hDpyS17/maxresdefault.jpg",
-                },
-            },
-            fields: [
+        };
+    },
+    computed: {
+        fields() {
+            return [
                 {
                     name: "Блюдо",
                     icon: "$food",
-                    value: "Басаси",
+                    value: this.p.preview.food,
                 },
                 {
                     name: "Культура",
                     icon: "$sightseeings",
-                    value: "Замок Хиросаки",
+                    value: this.p.preview.culture,
                 },
                 {
                     name: "Диалект",
                     icon: "$language",
-                    value: "Цугару-бэн",
+                    value: this.p.preview.dialect,
                 },
-            ],
-        };
+            ];
+        },
     },
     created() {
         this.sm = window.innerWidth < 960;
         window.addEventListener("resize", () => {
             this.sm = window.innerWidth < 960;
         });
-        console.log(this.p);
     },
 };
 </script>
