@@ -1,16 +1,32 @@
 <template>
     <v-dialog
-        v-model="dialog"
+        v-model="isOpen"
         fullscreen
         hide-overlay
         transition="dialog-bottom-transition"
     >
         <v-card>
-            <v-toolbar>
-                <v-btn icon @click="dialog = false">
+            <!-- <v-toolbar elevation="12">
+                <v-btn icon @click="isOpen = false">
                     <v-icon>mdi-close</v-icon>
                 </v-btn>
-            </v-toolbar>
+            </v-toolbar> -->
+            <v-btn
+                @click="isOpen = false"
+                fixed
+                color="primary"
+                right
+                bottom
+                fab
+                x-large
+            >
+                <v-icon>mdi-close</v-icon>
+            </v-btn>
+            <v-img
+                :src="p.preview.image.large"
+                class="bannerImage"
+                height="200"
+            ></v-img>
             <v-card-text class="mt-10 limitedWidth mx-auto text-center">
                 <p class="text-h3 text--primary text-center font-weight-bold">
                     {{ p.name }}
@@ -44,11 +60,7 @@
                 >
                     {{ paragraph }}
                 </p>
-                <v-img
-                    :src="p.preview.image.large"
-                    class="rounded-xl mx-auto my-10"
-                    width="700"
-                ></v-img>
+
                 <div
                     class="paragraph"
                     v-for="(listItem, i) in p.list"
@@ -89,12 +101,12 @@ export default {
     },
     data() {
         return {
+            isOpen: this.dialog,
             p: this.$store.state.prefectures[this.prefecture],
         };
     },
     computed: {
         fields() {
-            // TODO: Make toolbar to display field name
             return [
                 {
                     name: "Блюдо",
@@ -124,4 +136,7 @@ export default {
 
 .limitedWidth
     max-width: 1000px
+
+.bannerImage
+    filter: blur(5px)
 </style>

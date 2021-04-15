@@ -13,7 +13,12 @@
             <p class="text-h4 text--primary">{{ p.name }}</p>
             <p>{{ p.preview.intro }}</p>
             <div :class="sm && 'd-flex justify-space-around'">
-                <p class="text-left" v-for="(field, i) in fields" :key="i">
+                <p
+                    class="text-left"
+                    :class="sm && 'd-flex flex-column align-center'"
+                    v-for="(field, i) in fields"
+                    :key="i"
+                >
                     <v-icon small left>{{ field.icon }}</v-icon>
                     <span v-if="!sm" class="font-weight-bold"
                         >{{ field.name }}:</span
