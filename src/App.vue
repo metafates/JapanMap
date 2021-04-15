@@ -9,18 +9,10 @@
 </template>
 
 <script>
-import fetcher from "./utils/fetcher";
+import prefectures from "./prefectures/prefectures";
 export default {
     name: "App",
-
-    components: {},
-
-    data: () => ({
-        //
-    }),
-    // Fetch api for prefectures and then set them in the vuex
-    async created() {
-        const prefectures = await fetcher();
+    created() {
         this.$store.commit("setup", prefectures);
     },
 };
