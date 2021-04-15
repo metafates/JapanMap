@@ -28,15 +28,15 @@
 <script>
 export default {
     props: {
-        pref: {
+        prefecture: {
             type: String,
-            default: "JP-02",
+            default: "JP-01",
         },
     },
     data() {
         return {
             sm: false,
-            p: this.$store.state.prefectures[this.pref],
+            p: this.$store.state.prefectures[this.prefecture],
         };
     },
     computed: {

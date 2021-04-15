@@ -1,6 +1,6 @@
 <template>
     <div class="home">
-        <PreviewCard />
+        <PreviewCard :prefecture="prefecture" />
     </div>
 </template>
 
@@ -12,6 +12,11 @@ export default {
     name: "Home",
     components: {
         PreviewCard,
+    },
+    data() {
+        return {
+            prefecture: "JP-02",
+        };
     },
 };
 </script>
