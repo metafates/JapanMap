@@ -1,5 +1,6 @@
 <template>
     <v-container fill-height fluid>
+        <LogoDesktop v-if="!sm" />
         <PreviewCard
             @open="openPrefecturePage"
             :sm="sm"
@@ -32,6 +33,9 @@ import PrefecturePage from "../components/PrefecturePage";
 // Svg map
 import JapanMap from "../components/JapanMap";
 
+// Logo
+import LogoDesktop from "../components/LogoDesktop";
+
 export default {
     name: "Home",
     components: {
@@ -39,6 +43,7 @@ export default {
         PreviewCardMisc,
         PrefecturePage,
         JapanMap,
+        LogoDesktop,
     },
     data() {
         return {
