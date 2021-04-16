@@ -19,13 +19,17 @@
                     v-for="(field, i) in fields"
                     :key="i"
                 >
-                    <v-icon small left>{{ field.icon }}</v-icon>
+                    <v-icon :small="!sm" left>{{ field.icon }}</v-icon>
                     <span v-if="!sm" class="font-weight-bold"
                         >{{ field.name }}:</span
                     >
                     {{ field.value }}
                 </p>
             </div>
+            <v-btn @click="open" color="primary" block v-if="sm">
+                <v-icon left>mdi-book-open-variant</v-icon>
+                Открыть
+            </v-btn>
         </v-card-text>
     </v-card>
 </template>
@@ -39,6 +43,11 @@ export default {
         sm: {
             type: Boolean,
             required: true,
+        },
+    },
+    methods: {
+        open() {
+            this.$emit("open");
         },
     },
     computed: {

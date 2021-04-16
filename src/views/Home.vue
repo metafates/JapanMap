@@ -1,6 +1,10 @@
 <template>
     <v-container fill-height fluid>
-        <PreviewCard :prefecture="prefecture" />
+        <PreviewCard
+            @open="openPrefecturePage"
+            :sm="sm"
+            :prefecture="prefecture"
+        />
         <PreviewCardMisc :sm="sm" :prefecture="prefecture" />
         <PrefecturePage
             @close="closePrefecturePage"
@@ -8,8 +12,9 @@
             :dialog="dialog"
         />
         <JapanMap
+            :sm="sm"
             @hover="setPrefecture($event)"
-            @clicked="openPrefecturePage"
+            @open="openPrefecturePage"
         />
     </v-container>
 </template>

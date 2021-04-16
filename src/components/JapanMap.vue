@@ -620,10 +620,17 @@
 
 <script>
 export default {
+    props: {
+        sm: {
+            type: Boolean,
+            require: true,
+        },
+    },
     methods: {
         handleClick(e) {
             const res = this.isValidPath(e);
-            res && this.$emit("clicked", res);
+            // Open on click only on desktop
+            res && !this.sm && this.$emit("open", res);
         },
         handleHover(e) {
             const res = this.isValidPath(e);
@@ -631,7 +638,7 @@ export default {
         },
         isValidPath(e) {
             const path = e.path[0];
-            return "id" in path && path.id.startsWith("JP-") && path.id;
+            return "id" in path && path.id.startsWith("JP") && path.id;
         },
     },
 };
