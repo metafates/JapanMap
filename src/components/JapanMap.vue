@@ -2,6 +2,7 @@
     <svg
         @click="handleClick"
         @mouseover.exact="handleHover"
+        @mouseleave.exact="handleHoverLeave"
         viewBox="0 0 343 386"
         preserveAspectRatio="none"
         class="mx-auto map"
@@ -635,6 +636,9 @@ export default {
         handleHover(e) {
             const res = this.isValidPath(e);
             res && this.$emit("hover", res);
+        },
+        handleHoverLeave() {
+            this.$emit("hoverleave");
         },
         isValidPath(e) {
             const path = e.path[0];

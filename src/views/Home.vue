@@ -2,11 +2,12 @@
     <v-container fill-height fluid>
         <LogoDesktop v-if="!sm" />
         <PreviewCard
+            v-show="hovered"
             @open="openPrefecturePage"
             :sm="sm"
             :prefecture="prefecture"
         />
-        <PreviewCardMisc :sm="sm" :prefecture="prefecture" />
+        <PreviewCardMisc v-show="hovered" :sm="sm" :prefecture="prefecture" />
         <PrefecturePage
             @close="closePrefecturePage"
             :prefecture="prefecture"
@@ -15,6 +16,7 @@
         <JapanMap
             :sm="sm"
             @hover="setPrefecture($event)"
+            @hoverleave="hoverleave"
             @open="openPrefecturePage"
         />
     </v-container>
@@ -50,15 +52,20 @@ export default {
             prefecture: this.$store.state.prefectures["JP-02"],
             dialog: false,
             sm: false,
+            hovered: false,
         };
     },
     methods: {
         setPrefecture(prefecture) {
             if (this.dialog) return;
 
+            this.hovered = true;
             this.dialog = false;
             this.prefecture =
                 this.$store.state.prefectures[prefecture] || this.prefecture;
+        },
+        hoverleave() {
+            this.hovered = false;
         },
         openPrefecturePage() {
             this.dialog = true;
