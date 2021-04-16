@@ -1,6 +1,7 @@
 <template>
     <v-container fill-height fluid>
         <PreviewCard :prefecture="prefecture" />
+        <PreviewCardMisc :sm="sm" :prefecture="prefecture" />
         <PrefecturePage
             @close="closePrefecturePage"
             :prefecture="prefecture"
@@ -14,8 +15,11 @@
 </template>
 
 <script>
-// Preview Card
+// Preview Card (right)
 import PreviewCard from "../components/PreviewCard";
+
+// Preview Card with misc info (left; desktop only)
+import PreviewCardMisc from "../components/PreviewCardMisc";
 
 // Prefecture Page
 import PrefecturePage from "../components/PrefecturePage";
@@ -27,6 +31,7 @@ export default {
     name: "Home",
     components: {
         PreviewCard,
+        PreviewCardMisc,
         PrefecturePage,
         JapanMap,
     },
@@ -34,6 +39,7 @@ export default {
         return {
             prefecture: this.$store.state.prefectures["JP-02"],
             dialog: false,
+            sm: false,
         };
     },
     methods: {
@@ -50,6 +56,12 @@ export default {
         closePrefecturePage() {
             this.dialog = false;
         },
+    },
+    created() {
+        this.sm = window.innerWidth < 960;
+        window.addEventListener("resize", () => {
+            this.sm = window.innerWidth < 960;
+        });
     },
 };
 </script>

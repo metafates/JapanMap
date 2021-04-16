@@ -36,11 +36,10 @@ export default {
         prefecture: {
             type: Object,
         },
-    },
-    data() {
-        return {
-            sm: false,
-        };
+        sm: {
+            type: Boolean,
+            required: true,
+        },
     },
     computed: {
         fields() {
@@ -62,12 +61,6 @@ export default {
                 },
             ];
         },
-    },
-    created() {
-        this.sm = window.innerWidth < 960;
-        window.addEventListener("resize", () => {
-            this.sm = window.innerWidth < 960;
-        });
     },
 };
 </script>
