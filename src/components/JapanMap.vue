@@ -690,14 +690,23 @@ export default {
     stroke-width: 0.25;
     stroke-miterlimit: 10;
 }
+svg {
+    pointer-events: none;
+}
 
 path[id^="JP"] {
     pointer-events: all;
-    transition: 0.2s;
+    /* transition: 0.1s; */
+    cursor: pointer;
 }
 
 path[id^="JP"]:hover {
-    filter: brightness(150%) drop-shadow(0 0 4px white);
+    /* drop-shadow(0 0 4px white) */
+    filter: brightness(120%);
+}
+
+svg:hover > path[id^="JP"]:not(:hover) {
+    filter: brightness(90%);
 }
 
 .map {
