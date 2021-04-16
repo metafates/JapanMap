@@ -6,11 +6,6 @@
         transition="dialog-bottom-transition"
     >
         <v-card>
-            <!-- <v-toolbar elevation="12">
-                <v-btn icon @click="isOpen = false">
-                    <v-icon>mdi-close</v-icon>
-                </v-btn>
-            </v-toolbar> -->
             <v-btn
                 @click="isOpen = false"
                 fixed
