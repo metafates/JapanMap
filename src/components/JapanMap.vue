@@ -641,7 +641,7 @@ export default {
             this.$emit("hoverleave");
         },
         isValidPath(e) {
-            const path = e.path[0];
+            const path = e.target;
             return "id" in path && path.id.startsWith("JP") && path.id;
         },
     },

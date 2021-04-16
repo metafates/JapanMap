@@ -65,7 +65,7 @@ export default {
                 this.$store.state.prefectures[prefecture] || this.prefecture;
         },
         hoverleave() {
-            this.hovered = false;
+            this.hovered = this.sm && true;
         },
         openPrefecturePage() {
             this.dialog = true;
