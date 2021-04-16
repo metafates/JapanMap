@@ -1,13 +1,13 @@
 <template>
     <v-dialog
-        v-model="isOpen"
+        v-model="dialog"
         fullscreen
         hide-overlay
         transition="dialog-bottom-transition"
     >
         <v-card>
             <v-btn
-                @click="isOpen = false"
+                @click="$emit('close')"
                 fixed
                 color="primary"
                 right
@@ -18,16 +18,16 @@
                 <v-icon>mdi-close</v-icon>
             </v-btn>
             <v-img
-                :src="p.preview.image.large"
+                :src="prefecture.preview.image.large"
                 class="bannerImage"
                 height="200"
             ></v-img>
             <v-card-text class="mt-10 limitedWidth mx-auto text-center">
                 <p class="text-h3 text--primary text-center font-weight-bold">
-                    {{ p.name }}
+                    {{ prefecture.name }}
                 </p>
                 <p class="text-h5 text-center">
-                    {{ p.preview.intro }}
+                    {{ prefecture.preview.intro }}
                 </p>
                 <v-row justify="center" class="my-10">
                     <div class="d-flex" v-for="(field, i) in fields" :key="i">
@@ -50,7 +50,7 @@
                 </v-row>
                 <p
                     class="text-h5"
-                    v-for="(paragraph, i) in p.main"
+                    v-for="(paragraph, i) in prefecture.main"
                     :key="'A' + i"
                 >
                     {{ paragraph }}
@@ -58,7 +58,7 @@
 
                 <div
                     class="paragraph"
-                    v-for="(listItem, i) in p.list"
+                    v-for="(listItem, i) in prefecture.list"
                     :key="'B' + i"
                 >
                     <p class="text-h4 mb-10 font-weight-bold">
@@ -90,15 +90,9 @@ export default {
             default: false,
         },
         prefecture: {
-            type: String,
-            default: "JP-01",
+            type: Object,
+            required: true,
         },
-    },
-    data() {
-        return {
-            isOpen: this.dialog,
-            p: this.$store.state.prefectures[this.prefecture],
-        };
     },
     computed: {
         fields() {
@@ -106,17 +100,17 @@ export default {
                 {
                     name: "Блюдо",
                     icon: "$food",
-                    value: this.p.preview.food,
+                    value: this.prefecture.preview.food,
                 },
                 {
                     name: "Культура",
                     icon: "$sightseeings",
-                    value: this.p.preview.culture,
+                    value: this.prefecture.preview.culture,
                 },
                 {
                     name: "Диалект",
                     icon: "$language",
-                    value: this.p.preview.dialect,
+                    value: this.prefecture.preview.dialect,
                 },
             ];
         },

@@ -1,8 +1,15 @@
 <template>
     <v-container fill-height fluid>
         <PreviewCard :prefecture="prefecture" />
-        <PrefecturePage :prefecture="prefecture" :dialog="true" />
-        <JapanMap />
+        <PrefecturePage
+            @close="closePrefecturePage"
+            :prefecture="prefecture"
+            :dialog="dialog"
+        />
+        <JapanMap
+            @hover="setPrefecture($event)"
+            @clicked="openPrefecturePage"
+        />
     </v-container>
 </template>
 
@@ -25,8 +32,24 @@ export default {
     },
     data() {
         return {
-            prefecture: "JP-02",
+            prefecture: this.$store.state.prefectures["JP-02"],
+            dialog: false,
         };
+    },
+    methods: {
+        setPrefecture(prefecture) {
+            if (this.dialog) return;
+
+            this.dialog = false;
+            this.prefecture =
+                this.$store.state.prefectures[prefecture] || this.prefecture;
+        },
+        openPrefecturePage() {
+            this.dialog = true;
+        },
+        closePrefecturePage() {
+            this.dialog = false;
+        },
     },
 };
 </script>

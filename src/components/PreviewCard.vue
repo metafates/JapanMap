@@ -6,12 +6,12 @@
     >
         <v-img
             v-if="!sm"
-            :src="p.preview.image.large"
-            :lazy-src="p.preview.image.small"
+            :src="prefecture.preview.image.large"
+            :lazy-src="prefecture.preview.image.small"
         ></v-img>
         <v-card-text class="text-center">
-            <p class="text-h4 text--primary">{{ p.name }}</p>
-            <p>{{ p.preview.intro }}</p>
+            <p class="text-h4 text--primary">{{ prefecture.name }}</p>
+            <p>{{ prefecture.preview.intro }}</p>
             <div :class="sm && 'd-flex justify-space-around'">
                 <p
                     class="text-left"
@@ -34,14 +34,12 @@
 export default {
     props: {
         prefecture: {
-            type: String,
-            default: "JP-01",
+            type: Object,
         },
     },
     data() {
         return {
             sm: false,
-            p: this.$store.state.prefectures[this.prefecture],
         };
     },
     computed: {
@@ -50,17 +48,17 @@ export default {
                 {
                     name: "Блюдо",
                     icon: "$food",
-                    value: this.p.preview.food,
+                    value: this.prefecture.preview.food,
                 },
                 {
                     name: "Культура",
                     icon: "$sightseeings",
-                    value: this.p.preview.culture,
+                    value: this.prefecture.preview.culture,
                 },
                 {
                     name: "Диалект",
                     icon: "$language",
-                    value: this.p.preview.dialect,
+                    value: this.prefecture.preview.dialect,
                 },
             ];
         },
@@ -75,6 +73,7 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+
 .desktopCard
 	position absolute
 	right 10px
