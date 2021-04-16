@@ -35,11 +35,17 @@ export default {
 };
 </script>
 
-<style lang="stylus" scoped>
+<style scoped>
+.desktopCard {
+    position: absolute;
+    left: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
 
-.desktopCard
-	position absolute
-	left 10px
-	top 50%
-	transform translateY(-50%)
+@media screen and (max-width: 1500px) {
+    .desktopCard {
+        left: 10px;
+    }
+}
 </style>
