@@ -76,6 +76,7 @@ export default {
     },
     created() {
         this.sm = window.innerWidth < 960;
+        this.hovered = this.sm;
         window.addEventListener("resize", () => {
             this.sm = window.innerWidth < 960;
         });
