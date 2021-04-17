@@ -254,7 +254,7 @@
         ]
     },
     "JP-11": {
-        "name": "",
+        "name": "Сайтама",
         "preview": {
             "image": {
                 "large": "",
@@ -275,7 +275,7 @@
         ]
     },
     "JP-12": {
-        "name": "",
+        "name": "Тиба",
         "preview": {
             "image": {
                 "large": "",
@@ -296,7 +296,7 @@
         ]
     },
     "JP-13": {
-        "name": "",
+        "name": "Токио",
         "preview": {
             "image": {
                 "large": "",
@@ -317,7 +317,7 @@
         ]
     },
     "JP-14": {
-        "name": "",
+        "name": "Канагава",
         "preview": {
             "image": {
                 "large": "",
@@ -359,7 +359,7 @@
         ]
     },
     "JP-16": {
-        "name": "",
+        "name": "Тояма",
         "preview": {
             "image": {
                 "large": "",
@@ -380,7 +380,7 @@
         ]
     },
     "JP-17": {
-        "name": "",
+        "name": "Исикава",
         "preview": {
             "image": {
                 "large": "",
@@ -422,7 +422,7 @@
         ]
     },
     "JP-19": {
-        "name": "",
+        "name": "Яманаси",
         "preview": {
             "image": {
                 "large": "",
@@ -485,7 +485,7 @@
         ]
     },
     "JP-22": {
-        "name": "",
+        "name": "Сидзуока",
         "preview": {
             "image": {
                 "large": "",
@@ -506,7 +506,7 @@
         ]
     },
     "JP-23": {
-        "name": "",
+        "name": "Айти",
         "preview": {
             "image": {
                 "large": "",
@@ -548,7 +548,7 @@
         ]
     },
     "JP-25": {
-        "name": "",
+        "name": "Сига",
         "preview": {
             "image": {
                 "large": "",
@@ -569,7 +569,7 @@
         ]
     },
     "JP-26": {
-        "name": "",
+        "name": "Киото",
         "preview": {
             "image": {
                 "large": "",
@@ -590,7 +590,7 @@
         ]
     },
     "JP-27": {
-        "name": "",
+        "name": "Осака",
         "preview": {
             "image": {
                 "large": "",
@@ -611,7 +611,7 @@
         ]
     },
     "JP-28": {
-        "name": "",
+        "name": "Хёго",
         "preview": {
             "image": {
                 "large": "",
@@ -632,7 +632,7 @@
         ]
     },
     "JP-29": {
-        "name": "",
+        "name": "Нара",
         "preview": {
             "image": {
                 "large": "",
@@ -653,7 +653,7 @@
         ]
     },
     "JP-30": {
-        "name": "",
+        "name": "Вакаяма",
         "preview": {
             "image": {
                 "large": "",
@@ -674,7 +674,7 @@
         ]
     },
     "JP-31": {
-        "name": "",
+        "name": "Тоттори",
         "preview": {
             "image": {
                 "large": "",
@@ -695,7 +695,7 @@
         ]
     },
     "JP-32": {
-        "name": "",
+        "name": "Симанэ",
         "preview": {
             "image": {
                 "large": "",
@@ -716,7 +716,7 @@
         ]
     },
     "JP-33": {
-        "name": "",
+        "name": "Окаяма",
         "preview": {
             "image": {
                 "large": "",
@@ -758,7 +758,7 @@
         ]
     },
     "JP-35": {
-        "name": "",
+        "name": "Ямагути",
         "preview": {
             "image": {
                 "large": "",
@@ -779,7 +779,7 @@
         ]
     },
     "JP-36": {
-        "name": "",
+        "name": "Токусима",
         "preview": {
             "image": {
                 "large": "",
@@ -800,7 +800,7 @@
         ]
     },
     "JP-37": {
-        "name": "",
+        "name": "Кагава",
         "preview": {
             "image": {
                 "large": "",
@@ -821,7 +821,7 @@
         ]
     },
     "JP-38": {
-        "name": "",
+        "name": "Эхимэ",
         "preview": {
             "image": {
                 "large": "",
@@ -842,7 +842,7 @@
         ]
     },
     "JP-39": {
-        "name": "",
+        "name": "Коти",
         "preview": {
             "image": {
                 "large": "",
@@ -863,7 +863,7 @@
         ]
     },
     "JP-40": {
-        "name": "",
+        "name": "Фукуока",
         "preview": {
             "image": {
                 "large": "",
@@ -884,7 +884,7 @@
         ]
     },
     "JP-41": {
-        "name": "",
+        "name": "Сага",
         "preview": {
             "image": {
                 "large": "",
@@ -905,7 +905,7 @@
         ]
     },
     "JP-42": {
-        "name": "",
+        "name": "Нагасаки",
         "preview": {
             "image": {
                 "large": "",
@@ -926,7 +926,7 @@
         ]
     },
     "JP-43": {
-        "name": "",
+        "name": "Кумамото",
         "preview": {
             "image": {
                 "large": "",
@@ -947,7 +947,7 @@
         ]
     },
     "JP-44": {
-        "name": "",
+        "name": "Оита",
         "preview": {
             "image": {
                 "large": "",
@@ -968,7 +968,7 @@
         ]
     },
     "JP-45": {
-        "name": "",
+        "name": "Миядзаки",
         "preview": {
             "image": {
                 "large": "",
@@ -989,7 +989,7 @@
         ]
     },
     "JP-46": {
-        "name": "",
+        "name": "Кагосима",
         "preview": {
             "image": {
                 "large": "",
