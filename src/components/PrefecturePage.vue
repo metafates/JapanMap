@@ -20,7 +20,7 @@
             <v-img
                 :src="prefecture.preview.image.large"
                 :lazy-src="prefecture.preview.image.small"
-                class="bannerImage"
+                class="bannerImage elevation-10"
                 height="200"
             ></v-img>
             <v-card-text class="mt-10 limitedWidth mx-auto text-center">

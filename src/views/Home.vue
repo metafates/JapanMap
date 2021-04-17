@@ -8,12 +8,15 @@
                 :sm="sm"
                 :prefecture="prefecture"
             />
+        </transition>
+        <transition name="fade">
             <PreviewCardMisc
                 v-show="hovered"
                 :sm="sm"
                 :prefecture="prefecture"
             />
         </transition>
+
         <PrefecturePage
             @close="closePrefecturePage"
             :prefecture="prefecture"
@@ -95,7 +98,8 @@ export default {
 .fade-leave-active {
     transition: opacity 0.5s;
 }
-.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
+.fade-enter,
+.fade-leave-to {
     opacity: 0;
 }
 </style>
