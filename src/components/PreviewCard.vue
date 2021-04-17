@@ -63,7 +63,7 @@ export default {
                 },
                 {
                     name: "Культура",
-                    icon: "$sightseeings",
+                    icon: "$culture",
                     value: this.prefecture.preview.culture,
                 },
                 {

@@ -1,5 +1,7 @@
 <template>
     <v-dialog
+        @click:outside="$emit('close')"
+        @keydown="$emit('close')"
         v-model="dialog"
         fullscreen
         hide-overlay
@@ -105,7 +107,7 @@ export default {
                 },
                 {
                     name: "Культура",
-                    icon: "$sightseeings",
+                    icon: "$culture",
                     value: this.prefecture.preview.culture,
                 },
                 {
