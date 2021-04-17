@@ -1,13 +1,19 @@
 <template>
     <v-container fill-height fluid>
         <LogoDesktop v-if="!sm" />
-        <PreviewCard
-            v-show="hovered"
-            @open="openPrefecturePage"
-            :sm="sm"
-            :prefecture="prefecture"
-        />
-        <PreviewCardMisc v-show="hovered" :sm="sm" :prefecture="prefecture" />
+        <transition name="fade">
+            <PreviewCard
+                v-show="hovered"
+                @open="openPrefecturePage"
+                :sm="sm"
+                :prefecture="prefecture"
+            />
+            <PreviewCardMisc
+                v-show="hovered"
+                :sm="sm"
+                :prefecture="prefecture"
+            />
+        </transition>
         <PrefecturePage
             @close="closePrefecturePage"
             :prefecture="prefecture"
@@ -83,3 +89,13 @@ export default {
     },
 };
 </script>
+
+<style scoped>
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.5s;
+}
+.fade-enter, .fade-leave-to /* .fade-leave-active до версии 2.1.8 */ {
+    opacity: 0;
+}
+</style>
