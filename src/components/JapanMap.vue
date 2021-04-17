@@ -4,7 +4,7 @@
         @mouseover.exact="handleHover"
         @mouseleave.exact="handleHoverLeave"
         viewBox="0 0 343 386"
-        preserveAspectRatio="none"
+        preserveAspectRatio="xMidYMid meet"
         class="mx-auto map"
     >
         <path
@@ -722,5 +722,11 @@ svg:hover > path[id^="JP"]:not(:hover) {
 
 .map {
     width: 700px;
+}
+
+@media screen and (max-width: 1300px) {
+    .map {
+        width: 500px;
+    }
 }
 </style>
