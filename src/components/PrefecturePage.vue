@@ -19,6 +19,7 @@
             </v-btn>
             <v-img
                 :src="prefecture.preview.image.large"
+                :lazy-src="prefecture.preview.image.small"
                 class="bannerImage"
                 height="200"
             ></v-img>
