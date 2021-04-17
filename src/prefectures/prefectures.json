@@ -21,7 +21,7 @@
         ]
     },
     "JP-01": {
-        "name": "",
+        "name": "Хоккайдо",
         "preview": {
             "image": {
                 "large": "",
@@ -82,6 +82,951 @@
                     "Одним из любимейших местными жителями и туристами фестивалей является фестиваль Нэбута. Нэбута - это августовский фестиваль. Во время Нэбута по городу проносят огромный фонарь с изображением Нэбута. После Нэбута рекомендуется посетить дом Рассе Нэбута. Здесь выставлен тот самый огромный фонарь с фестиваля, и его мощью можно наслаждаться круглый год."
                 ],
                 "image": "https://i.ibb.co/5ryZDvS/nebuta.png"
+            }
+        ]
+    },
+    "JP-03": {
+        "name": "Иватэ",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-04": {
+        "name": "Мияги",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-05": {
+        "name": "Акита",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-06": {
+        "name": "Ямагата",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-07": {
+        "name": "Фукусима",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-08": {
+        "name": "Ибараки",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-09": {
+        "name": "Тотиги",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-10": {
+        "name": "Гумма",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-11": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-12": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-13": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-14": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-15": {
+        "name": "Ниигата",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-16": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-17": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-18": {
+        "name": "Фукуи",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-19": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-20": {
+        "name": "Нагано",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-21": {
+        "name": "Гифу",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-22": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-23": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-24": {
+        "name": "Миэ",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-25": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-26": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-27": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-28": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-29": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-30": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-31": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-32": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-33": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-34": {
+        "name": "Хиросима",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-35": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-36": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-37": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-38": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-39": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-40": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-41": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-42": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-43": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-44": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-45": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-46": {
+        "name": "",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
+            }
+        ]
+    },
+    "JP-47": {
+        "name": "Окинава",
+        "preview": {
+            "image": {
+                "large": "",
+                "small": ""
+            },
+            "food": "",
+            "culture": "",
+            "dialect": "",
+            "intro": ""
+        },
+        "main": [""],
+        "list": [
+            {
+                "title": "",
+                "description": [""],
+                "image": ""
             }
         ]
     }
