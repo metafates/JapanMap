@@ -7,11 +7,11 @@
 </template>
 
 <script>
-import prefectures from "./prefectures/prefectures";
+import prefectures from "./prefectures/prefectures.json";
 export default {
     name: "App",
     created() {
-        this.$store.commit("setup", prefectures);
+        this.$store.commit("setup", Object.freeze(prefectures));
     },
 };
 </script>
