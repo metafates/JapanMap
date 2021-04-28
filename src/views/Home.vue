@@ -24,7 +24,7 @@
         />
         <JapanMap
             :sm="sm"
-            @hover="setPrefecture($event)"
+            @hover="setPrefecture"
             @hoverleave="hoverleave"
             @open="openPrefecturePage"
         />
