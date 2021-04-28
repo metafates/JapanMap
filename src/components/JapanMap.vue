@@ -722,6 +722,20 @@ svg:hover > path[id^="JP"]:not(:hover) {
 
 .map {
     width: 700px;
+
+    animation: forwards 2s fade;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        filter: drop-shadow(0 0 30px rgba(0, 0, 0, 0.2));
+    }
 }
 
 @media screen and (max-width: 1300px) {
