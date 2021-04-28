@@ -1,7 +1,7 @@
 <template>
     <v-dialog
-        @click:outside="$emit('close')"
-        @keydown="$emit('close')"
+        @click:outside="closeDialog"
+        @keydown="closeDialog"
         v-model="dialog"
         fullscreen
         hide-overlay
@@ -9,7 +9,7 @@
     >
         <v-card>
             <v-btn
-                @click="$emit('close')"
+                @click="closeDialog"
                 fixed
                 color="primary"
                 right
@@ -116,6 +116,13 @@ export default {
                     value: this.prefecture.preview.dialect,
                 },
             ];
+        },
+    },
+    methods: {
+        closeDialog() {
+            this.$emit("close");
+            // Scroll back to the top of page after closing
+            document.querySelector(".v-dialog--fullscreen").scrollTop = 0;
         },
     },
 };
