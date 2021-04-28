@@ -1,6 +1,7 @@
 <template>
     <v-container fill-height fluid>
         <LogoDesktop v-if="!sm" />
+        <RandomPrefBtn @random="openRandomPrefecture" />
         <transition name="fade">
             <PreviewCard
                 v-show="hovered"
@@ -47,6 +48,11 @@ import JapanMap from "../components/JapanMap";
 // Logo
 import LogoDesktop from "../components/LogoDesktop";
 
+// Open Random Prefecture Page button
+import RandomPrefBtn from "../components/RandomPrefBtn";
+
+import randomPrefecture from "../utils/randomPrefecture";
+
 export default {
     name: "Home",
     components: {
@@ -55,10 +61,11 @@ export default {
         PrefecturePage,
         JapanMap,
         LogoDesktop,
+        RandomPrefBtn,
     },
     data() {
         return {
-            prefecture: this.$store.state.prefectures["JP-02"],
+            prefecture: this.$store.state.prefectures[randomPrefecture()],
             dialog: false,
             sm: false,
             hovered: false,
@@ -81,6 +88,10 @@ export default {
         },
         closePrefecturePage() {
             this.dialog = false;
+        },
+        openRandomPrefecture() {
+            this.prefecture = this.$store.state.prefectures[randomPrefecture()];
+            this.openPrefecturePage();
         },
     },
     created() {
