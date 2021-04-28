@@ -723,7 +723,7 @@ svg:hover > path[id^="JP"]:not(:hover) {
 .map {
     width: 700px;
 
-    animation: forwards 2s fade;
+    animation: forwards 1.4s fade;
 }
 
 @keyframes fade {
