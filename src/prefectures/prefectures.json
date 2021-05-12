@@ -45,8 +45,8 @@
         "name": "Аомори",
         "preview": {
             "image": {
-                "large": "https://i.ibb.co/XSmbqk2/maxresdefault.jpg",
-                "small": "https://i.ibb.co/hDpyS17/maxresdefault.jpg"
+                "large": "https://i.ibb.co/CmFQmJb/aomori-main.png",
+                "small": "https://i.ibb.co/bQnXQHs/aomori-main.png"
             },
             "food": "Басаси",
             "culture": "Замок Хиросаки",
@@ -110,8 +110,8 @@
         "name": "Мияги",
         "preview": {
             "image": {
-                "large": "",
-                "small": ""
+                "large": "https://i.ibb.co/c3WW3jy/miyagi-main.png",
+                "small": "https://i.ibb.co/fF33FsX/miyagi-main.png"
             },
             "food": "Гюутан Яки",
             "culture": "Острова Мацусима",
@@ -161,8 +161,8 @@
         "name": "Акита",
         "preview": {
             "image": {
-                "large": "",
-                "small": ""
+                "large": "https://i.ibb.co/6yn4jVb/akita-main.png",
+                "small": "https://i.ibb.co/TwvH9pR/akita-main.png"
             },
             "food": "Киританпо Набэ",
             "culture": "Тадзава",
@@ -205,8 +205,8 @@
         "name": "Ямагата",
         "preview": {
             "image": {
-                "large": "",
-                "small": ""
+                "large": "https://i.ibb.co/V98JybK/yamagata-main.png",
+                "small": "https://i.ibb.co/nmS624W/yamagata-main.png"
             },
             "food": "Имо Набэ",
             "culture": "Замок Каминояма",
@@ -311,8 +311,8 @@
         "name": "Гумма",
         "preview": {
             "image": {
-                "large": "",
-                "small": ""
+                "large": "https://i.ibb.co/nQ0gZgs/gunma-main.png",
+                "small": "https://i.ibb.co/wpL030N/gunma-main.png"
             },
             "food": "Яки Мандзюу",
             "culture": "Святилища Миёги",
@@ -354,8 +354,8 @@
         "name": "Сайтама",
         "preview": {
             "image": {
-                "large": "",
-                "small": ""
+                "large": "https://i.ibb.co/C9Sgr3z/saitama-main.png",
+                "small": "https://i.ibb.co/NNG54ds/saitama-main.png"
             },
             "food": "Хиядзиру Удон",
             "culture": "Деревня бонсай",
@@ -478,8 +478,8 @@
         "name": "Ниигата",
         "preview": {
             "image": {
-                "large": "",
-                "small": ""
+                "large": "https://i.ibb.co/V9SZH6p/niigata-main.png",
+                "small": "https://i.ibb.co/DWCyGdg/niigata-main.png"
             },
             "food": "Ноппэй Дзиру",
             "culture": "Хакусан",
@@ -591,8 +591,8 @@
         "name": "Фукуи",
         "preview": {
             "image": {
-                "large": "",
-                "small": ""
+                "large": "https://i.ibb.co/4RpCcQS/fukui-main.png",
+                "small": "https://i.ibb.co/23dRwbM/fukui-main.png"
             },
             "food": "Ороси Соба",
             "culture": "Музей динозавров",
@@ -749,8 +749,8 @@
         "name": "Миэ",
         "preview": {
             "image": {
-                "large": "",
-                "small": ""
+                "large": "https://i.ibb.co/LnTSy59/mie-main.png",
+                "small": "https://i.ibb.co/WgrnXtB/mie-main.png"
             },
             "food": "Исэ Удон",
             "culture": "Музей ниндзя",
@@ -810,8 +810,8 @@
         "name": "Сига",
         "preview": {
             "image": {
-                "large": "",
-                "small": ""
+                "large": "https://i.ibb.co/cXZRMQk/shiga-main.png",
+                "small": "https://i.ibb.co/h14rhVL/shiga-main.png"
             },
             "food": "Фунадзуси",
             "culture": "Замок Хиконэ",
@@ -848,8 +848,8 @@
         "name": "Киото",
         "preview": {
             "image": {
-                "large": "",
-                "small": ""
+                "large": "https://i.ibb.co/crcZB2w/kyoto-main.png",
+                "small": "https://i.ibb.co/9r91Dyh/kyoto-main.png"
             },
             "food": "",
             "culture": "",
