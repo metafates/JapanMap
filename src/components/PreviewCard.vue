@@ -10,7 +10,20 @@
                 v-if="!sm"
                 :src="prefecture.preview.image.large"
                 :lazy-src="prefecture.preview.image.small"
-            ></v-img>
+            >
+                <template v-slot:placeholder>
+                    <v-row
+                        class="fill-height ma-0"
+                        align="center"
+                        justify="center"
+                    >
+                        <v-progress-circular
+                            indeterminate
+                            color="primary"
+                        ></v-progress-circular>
+                    </v-row>
+                </template>
+            </v-img>
             <v-card-text class="text-center">
                 <p class="text-h4 text--primary">{{ prefecture.name }}</p>
                 <p>{{ prefecture.preview.intro }}</p>
