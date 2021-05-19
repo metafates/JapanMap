@@ -34,21 +34,25 @@
                 </p>
                 <v-row justify="center" class="my-10">
                     <div class="d-flex" v-for="(field, i) in fields" :key="i">
-                        <v-tooltip top>
-                            <template v-slot:activator="{ on, attrs }">
-                                <div
-                                    v-on="on"
-                                    v-bind="attrs"
-                                    class="d-flex flex-column mx-10 my-5 align-center"
-                                >
-                                    <v-icon x-large>{{ field.icon }}</v-icon>
-                                    <span class="text-h6 mt-3">{{
-                                        field.value
-                                    }}</span>
-                                </div>
-                            </template>
-                            <span>{{ field.name }}</span>
-                        </v-tooltip>
+                        <div v-if="field.value">
+                            <v-tooltip top>
+                                <template v-slot:activator="{ on, attrs }">
+                                    <div
+                                        v-on="on"
+                                        v-bind="attrs"
+                                        class="d-flex flex-column mx-10 my-5 align-center"
+                                    >
+                                        <v-icon x-large>{{
+                                            field.icon
+                                        }}</v-icon>
+                                        <span class="text-h6 mt-3">{{
+                                            field.value
+                                        }}</span>
+                                    </div>
+                                </template>
+                                <span>{{ field.name }}</span>
+                            </v-tooltip>
+                        </div>
                     </div>
                 </v-row>
                 <p

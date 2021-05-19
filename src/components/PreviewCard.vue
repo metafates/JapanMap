@@ -28,18 +28,19 @@
                 <p class="text-h4 text--primary">{{ prefecture.name }}</p>
                 <p>{{ prefecture.preview.intro }}</p>
                 <div :class="sm && 'd-flex justify-space-around'">
-                    <p
-                        class="text-left"
-                        :class="sm && 'd-flex flex-column align-center'"
-                        v-for="(field, i) in fields"
-                        :key="i"
-                    >
-                        <v-icon :small="!sm" left>{{ field.icon }}</v-icon>
-                        <span v-if="!sm" class="font-weight-bold"
-                            >{{ field.name }}:</span
+                    <div v-for="(field, i) in fields" :key="i">
+                        <p
+                            v-if="field.value"
+                            class="text-left"
+                            :class="sm && 'd-flex flex-column align-center'"
                         >
-                        {{ field.value }}
-                    </p>
+                            <v-icon :small="!sm" left>{{ field.icon }}</v-icon>
+                            <span v-if="!sm" class="font-weight-bold"
+                                >{{ field.name }}:</span
+                            >
+                            {{ field.value }}
+                        </p>
+                    </div>
                 </div>
                 <v-btn @click="open" color="primary" block v-if="sm">
                     <v-icon left>mdi-book-open-variant</v-icon>
