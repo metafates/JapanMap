@@ -25,14 +25,20 @@
                 </template>
             </v-img>
             <v-card-text class="text-center">
-                <p class="text-h4 text--primary">{{ prefecture.name }}</p>
+                <p class="text-h4 text--primary mb-1">{{ prefecture.name }}</p>
+                <p class="text-subtitle-1 mt-0 mb-1">
+                    {{ prefecture.preview.center }}
+                </p>
                 <p>{{ prefecture.preview.intro }}</p>
                 <div :class="sm && 'd-flex justify-space-around'">
                     <div v-for="(field, i) in fields" :key="i">
                         <p
                             v-if="field.value"
                             class="text-left"
-                            :class="sm && 'd-flex flex-column align-center'"
+                            :class="
+                                sm &&
+                                    'd-flex flex-column align-center text-center'
+                            "
                         >
                             <v-icon :small="!sm" left>{{ field.icon }}</v-icon>
                             <span v-if="!sm" class="font-weight-bold"
