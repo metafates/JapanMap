@@ -1,17 +1,4 @@
 {
-    "JP-00": {
-        "name": "",
-        "preview": {
-            "image": { "large": "", "small": "" },
-            "food": "",
-            "culture": "",
-            "dialect": "",
-            "intro": "",
-            "center": ""
-        },
-        "main": [""],
-        "list": [{ "title": "", "description": [""], "image": "" }]
-    },
     "JP-01": {
         "name": "Хоккайдо",
         "preview": {
