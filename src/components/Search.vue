@@ -29,6 +29,7 @@ export default {
             this.codes[name] = prefecture;
             this.items.push(name);
         }
+        this.items.sort();
     },
     watch: {
         prefecture(val) {
