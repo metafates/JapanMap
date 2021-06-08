@@ -1,6 +1,8 @@
 <template>
     <div class="logo">
-        <p class="text-h2 text--primary">Карта Японии</p>
+        <p class="text-h2 text--primary">
+            Карта <span class="red--text">Японии</span>
+        </p>
         <p class="text-h4 text--secondary kanji">日本地図</p>
     </div>
 </template>
