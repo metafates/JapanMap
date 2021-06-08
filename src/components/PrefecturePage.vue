@@ -68,9 +68,10 @@
                     v-for="(listItem, i) in prefecture.list"
                     :key="'B' + i"
                 >
-                    <p class="text-h4 mb-10 font-weight-bold">
+                    <p class="text-h4 mb-5 font-weight-bold">
                         {{ listItem.title }}
                     </p>
+                    <p class="text-subtitle-1">{{ listItem.address }}</p>
                     <p
                         v-for="(paragraph, i) in listItem.description"
                         :key="'C' + i"
