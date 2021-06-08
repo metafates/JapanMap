@@ -22,7 +22,10 @@ export default {
     },
     created() {
         for (let prefecture in this.$store.state.prefectures) {
+            if (!this.$store.state.prefectures[prefecture].main[0]) continue;
+
             const name = this.$store.state.prefectures[prefecture].name;
+
             this.codes[name] = prefecture;
             this.items.push(name);
         }

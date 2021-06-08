@@ -630,8 +630,12 @@ export default {
     methods: {
         handleClick(e) {
             const res = this.isValidPath(e);
+
             // Open on click only on desktop
-            res && !this.sm && this.$emit("open", res);
+            res &&
+                !this.sm &&
+                this.$store.state.prefectures[res].main[0] &&
+                this.$emit("open", res);
         },
         handleHover(e) {
             const res = this.isValidPath(e);
@@ -642,6 +646,7 @@ export default {
         },
         isValidPath(e) {
             const path = e.target;
+
             return "id" in path && path.id.startsWith("JP") && path.id;
         },
     },

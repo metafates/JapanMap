@@ -2,7 +2,7 @@
     <transition name="fade">
         <v-card
             :key="prefecture.name"
-            v-if="!sm"
+            v-if="!sm && isValidPref"
             elevation="6"
             class="desktopCard"
             max-width="300"
@@ -36,6 +36,11 @@ export default {
         sm: {
             type: Boolean,
             required: true,
+        },
+    },
+    computed: {
+        isValidPref() {
+            return this.prefecture.list[0].title;
         },
     },
 };
