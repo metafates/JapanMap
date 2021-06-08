@@ -113,7 +113,7 @@ export default {
                 {
                     name: "Культура",
                     icon: "$culture",
-                    value: this.prefecture.preview.culture,
+                    value: this.prefecture.list[0].title,
                 },
                 {
                     name: "Диалект",
