@@ -744,7 +744,10 @@
     "JP-16": {
         "name": "Тояма",
         "preview": {
-            "image": { "large": "", "small": "" },
+            "image": {
+                "large": "https://github.com/VadimZb/MyFiles/blob/main/Prefectures/toyama/toyama_main.png?raw=true",
+                "small": "https://github.com/VadimZb/MyFiles/blob/main/Prefectures/toyama/toyama_main-min.jpg?raw=true"
+            },
             "food": "",
             "dialect": "",
             "intro": "Тояма префектура в Японии, расположена в районе Тюбу на острове Хонсю, Япония. Административный центр префектуры — город Тояма.",
@@ -791,7 +794,7 @@
             },
             "food": "Кабура суши",
             "dialect": "",
-            "intro": "Исикава – префектура острова Хонсю, административным центром которой является город Канадзава. Изаестна Исикава производством лакированной посуды Kanazawa Lacquerware и производством 99% сусального золота в Японии. Считается, что театр Но был зарожден именно здесь",
+            "intro": "Исикава – префектура острова Хонсю, административным центром которой является город Канадзава. Известна Исикава производством лакированной посуды Kanazawa Lacquerware и производством 99% сусального золота в Японии. Считается, что театр Но был зарожден именно здесь",
             "center": "Канадзава"
         },
         "main": [
@@ -892,7 +895,10 @@
     "JP-19": {
         "name": "Яманаси",
         "preview": {
-            "image": { "large": "", "small": "" },
+            "image": {
+                "large": "https://github.com/VadimZb/MyFiles/blob/main/Prefectures/yamanashi/yamanashi_main.png?raw=true",
+                "small": "https://github.com/VadimZb/MyFiles/blob/main/Prefectures/yamanashi/yamanashi_main-min.jpg?raw=true"
+            },
             "food": "",
             "dialect": "",
             "intro": "Яманаси — префектура, расположенная в регионе Тюбу на острове Хонсю, Япония. Административный центр префектуры — город Кофу.",
