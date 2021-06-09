@@ -22,7 +22,8 @@
             <v-img
                 :src="prefecture.preview.image.large"
                 :lazy-src="prefecture.preview.image.small"
-                class="bannerImage elevation-10"
+                class="elevation-10"
+                :class="!mobile && 'bannerImage'"
                 height="200"
             ></v-img>
             <v-card-text class="mt-10 limitedWidth mx-auto text-center">
@@ -121,6 +122,9 @@ export default {
                     value: this.prefecture.preview.dialect,
                 },
             ];
+        },
+        mobile() {
+            return this.$vuetify.breakpoint.mobile;
         },
     },
     methods: {
