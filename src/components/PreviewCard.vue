@@ -31,10 +31,10 @@
                 </p>
                 <p>{{ prefecture.preview.intro }}</p>
                 <div :class="sm && 'd-flex justify-space-around'">
-                    <div v-for="(field, i) in fields" :key="i">
+                    <div v-for="(field, i) in filterFields(fields)" :key="i">
                         <p
                             v-if="field.value"
-                            class="text-left"
+                            class="text-left d-flex align-center"
                             :class="
                                 sm &&
                                     'd-flex flex-column align-center text-center'
@@ -44,7 +44,12 @@
                             <span v-if="!sm" class="font-weight-bold"
                                 >{{ field.name }}:</span
                             >
-                            {{ field.value }}
+                            <span
+                                style="max-width: 150px;"
+                                :style="sm && 'max-width: 100px;'"
+                                class="d-inline-block text-truncate ml-0 ml-md-1"
+                                >{{ field.value }}</span
+                            >
                         </p>
                     </div>
                 </div>
@@ -71,6 +76,9 @@ export default {
     methods: {
         open() {
             this.$emit("open");
+        },
+        filterFields(fields) {
+            return fields.filter((field) => field.value.length);
         },
     },
     computed: {

@@ -23,9 +23,9 @@ export default {
                 { title: "Тохоку", color: "#4a9ddb", className: "st1" },
                 { title: "Канто", color: "#4bb2ba", className: "st2" },
                 { title: "Тюбу", color: "#52af8c", className: "st0" },
-                { title: "Кансай", color: "#ecb15c", className: "st6" },
-                { title: "Тюгоку", color: "#8fc05b", className: "st8" },
-                { title: "Сикоку", color: "##f2ed72", className: "st3" },
+                { title: "Кансай", color: "#8fc05b", className: "st6" },
+                { title: "Тюгоку", color: "#ecb15c", className: "st8" },
+                { title: "Сикоку", color: "#f2ed72", className: "st3" },
                 { title: "Кюсю", color: "#e08a66", className: "st4" },
             ],
         };

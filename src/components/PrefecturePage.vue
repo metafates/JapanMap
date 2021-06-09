@@ -24,7 +24,7 @@
                 :lazy-src="prefecture.preview.image.small"
                 class="elevation-10"
                 :class="!mobile && 'bannerImage'"
-                height="200"
+                :height="mobile ? null : 200"
             ></v-img>
             <v-card-text class="mt-10 limitedWidth mx-auto text-center">
                 <p class="text-h3 text--primary text-center font-weight-bold">
