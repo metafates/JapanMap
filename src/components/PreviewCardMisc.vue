@@ -59,7 +59,7 @@ export default {
 .desktopCard {
     position: absolute;
     left: 100px;
-    top: 50%;
+    top: 60%;
     transform: translateY(-50%);
 }
 
