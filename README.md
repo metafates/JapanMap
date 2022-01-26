@@ -1,3 +1,3 @@
 # Japan Interactive Map
 
-## [Link](https://vadimzb.github.io/JapanMap/#/)
+## [Link](https://nihon-chizu.ru)
